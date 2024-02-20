@@ -71,139 +71,132 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    background-color: #d74949;  
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d74949;
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    background-color: #f3f3f3;
-    margin: 0vh 10vw;
-    padding: 0vh 5vw;
-    height: 90vh;
-    min-height: 600px;
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  margin: 0vh 10vw;
+  padding: 0vh 5vw;
+  height: 90vh;
+  min-height: 600px;
 }
 
 .container > h1 {
-    margin-top: 20vh;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 16px;
-    letter-spacing: 0em;    
+  margin-top: 20vh;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
 }
 
 .container > p {
-    margin-top: 30vh;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-transform: uppercase;
-    
+  margin-top: 30vh;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
 }
 
 .container > p > span {
-    color: #8F2727;
-    
+  color: #8f2727;
 }
 
 .container > h2 {
-    margin-top: 25vh;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 19px;
-    letter-spacing: 0.07em;
-    
+  margin-top: 25vh;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 19px;
+  letter-spacing: 0.07em;
 }
 
-
-
 .footer {
-    display: flex;
-    background-color: #3a3a3a;
-    height: 10vh;
-    bottom: 0;
-    color: white;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  background-color: #3a3a3a;
+  height: 10vh;
+  bottom: 0;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer > p {
-    font-weight: 700;
-    font-size: 14px;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .card {
-    position: absolute;
-    display: block;
-    background-color: #ffffff;
-    width: 200px;
-    height: 300px;
-    left: 15vw;
-    top: 40vh;
-    border-radius: 15px;
-    box-shadow: 0px 4px 4px 0px #00000040;
+  position: absolute;
+  display: block;
+  background-color: #ffffff;
+  width: 200px;
+  height: 300px;
+  left: 15vw;
+  top: 40vh;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .photo {
-    position: absolute;
-    height: 184px;
-    width: 200px;
-    border-radius: 15px 15px 0px 0px; /* Fix: Separate values with a space */
+  position: absolute;
+  height: 184px;
+  width: 200px;
+  border-radius: 15px 15px 0px 0px; 
 }
 
 .photo img {
-    object-fit: cover; /* or 'contain' depending on your requirement */
-    width: 100%;
-    height: 100%;
-    border-radius: 15px 15px 0px 0px;
+  object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .name {
-    position: absolute;
-    height: 16px;
-    left: 15px;
-    top: 205px;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    
+  position: absolute;
+  height: 16px;
+  left: 15px;
+  top: 205px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
 }
 
 .role {
-    position: absolute;
-    height: 16px;
-    left: 15px;
-    top: 224px;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-    
+  position: absolute;
+  height: 16px;
+  left: 15px;
+  top: 224px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .icons {
-    position: absolute;
-    display: flex;
-    left: 15px;
-    height: 16px;
-    top: 250px;
+  position: absolute;
+  display: flex;
+  left: 15px;
+  height: 16px;
+  top: 250px;
 }
 
 .icons img {
-    width: 18px;
-    height: 18px;
-    margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
 }
