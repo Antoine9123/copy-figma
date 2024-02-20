@@ -84,9 +84,44 @@ body{
 }
 
 .container{
+    display: flex;
+    justify-content: space-between;
     background-color: #f3f3f3;
     margin: 0vh 10vw;
+    padding: 0vh 5vw;
     height: 90vh;
+}
+
+.container > h1 {
+    margin-top: 20vh;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;    
+}
+
+.container > p {
+    margin-top: 30vh;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    
+}
+
+.container > p > span {
+    color: #8F2727;
+    
+}
+
+.container > h2 {
+    margin-top: 25vh;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0.07em;
+    
 }
 
 .footer {
